@@ -18,7 +18,7 @@ class TopSection extends StatelessWidget {
               children: [
                 AspectRatio(
                   aspectRatio: 3.2,
-                  child: Image.network('https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w940',
+                  child: Image.asset('images/pexels-photo-892757.webp',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -70,8 +70,8 @@ class TopSection extends StatelessWidget {
                 SizedBox(
                   height: 210,
                   width: double.infinity,
-                  child: Image.network(
-                    'https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w940',
+                  child: Image.asset(
+                    'images/pexels-photo-892757.webp',
                     fit: BoxFit.cover,
                   ),
                 ),

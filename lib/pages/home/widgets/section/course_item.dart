@@ -9,15 +9,15 @@ class CourseItem extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Image.network(
-          'https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        Image.asset(
+          'images/pexels-photo-892757.webp',
           fit: BoxFit.fitWidth,
         ),
         const SizedBox(height: 4,),
         Flexible(
           child: AutoSizeText(
-            'Criação de aplocações Android, Ios e Web com Flutter',
-            minFontSize: 3,
+            'Criação de aplicações Android, Ios e Web com Flutter',
+            minFontSize: 5,
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
