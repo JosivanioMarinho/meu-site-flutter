@@ -3,6 +3,7 @@ import 'package:meu_site_flutter/breakpoint.dart';
 import 'package:meu_site_flutter/pages/home/widgets/app_bar/mobile_app_bar.dart';
 import 'package:meu_site_flutter/pages/home/widgets/app_bar/web_app_bar.dart';
 import 'package:meu_site_flutter/pages/home/widgets/section/advantage_section.dart';
+import 'package:meu_site_flutter/pages/home/widgets/section/courses_section.dart';
 import 'package:meu_site_flutter/pages/home/widgets/section/top_section.dart';
 
 class HomePage extends StatelessWidget {
@@ -34,6 +35,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   TopSection(),
                   AdvantageSection(),
+                  CoursesSection(),
                 ],
               ),
             ),

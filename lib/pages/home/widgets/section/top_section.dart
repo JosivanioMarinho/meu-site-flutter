@@ -64,7 +64,7 @@ class TopSection extends StatelessWidget {
 
         if(maxWidth >= mobileBreakpoint){
           return SizedBox(
-            height: 270,
+            height: 260,
             child: Stack(
               children: [
                 SizedBox(
@@ -80,7 +80,8 @@ class TopSection extends StatelessWidget {
                   left: 20,
                   child: Card(
                     color: Colors.black,
-                    elevation: 8,
+                    elevation: 4,
+                    shadowColor: Colors.grey,
                     child: Container(
                       padding: const EdgeInsets.all(20),
                       width: 350,
