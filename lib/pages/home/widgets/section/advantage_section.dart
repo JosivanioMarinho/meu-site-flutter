@@ -1,3 +1,4 @@
+import 'package:auto_size_text_pk/auto_size_text_pk.dart';
 import 'package:flutter/material.dart';
 import 'package:meu_site_flutter/breakpoint.dart';
 
@@ -19,16 +20,18 @@ class AdvantageSection extends StatelessWidget {
           SizedBox(width: 8,),
           Column(
             children: [
-              Text(
+              AutoSizeText(
                 title,
+                minFontSize: 10,
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
-              Text(
+              AutoSizeText(
                 subtitle,
+                minFontSize: 10,
                 style: TextStyle(
                   color: Colors.white,
                 ),
@@ -49,8 +52,9 @@ class AdvantageSection extends StatelessWidget {
             size: 50,
           ),
           SizedBox(width: 8,),
-          Text(
+          AutoSizeText(
             title,
+            minFontSize: 10,
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 16,
@@ -58,11 +62,13 @@ class AdvantageSection extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          Text(
+          AutoSizeText(
             subtitle,
+            minFontSize: 5,
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
+              fontSize: 13,
             ),
           ),
         ],

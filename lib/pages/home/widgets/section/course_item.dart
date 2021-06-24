@@ -25,16 +25,18 @@ class CourseItem extends StatelessWidget {
             ),
           ),
         ),
-        Text(
+        AutoSizeText(
           'josivânio Marinho',
           style: TextStyle(
             color: Colors.grey,
+            fontSize: 10,
           ),
         ),
-        Text(
+        AutoSizeText(
           'R\$22.90',
           style: TextStyle(
             color: Colors.white,
+            fontSize: 10,
           ),
         ),
       ]
